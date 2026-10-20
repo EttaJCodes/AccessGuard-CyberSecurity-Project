@@ -1,4 +1,4 @@
-🔐 AccessGuard — Cybersecurity Event Monitoring System
+🔐 AccessGuard Cybersecurity Event Monitoring System
 Python | Cybersecurity | Security Event Analysis | Threat Detection
 
 Project Overview
