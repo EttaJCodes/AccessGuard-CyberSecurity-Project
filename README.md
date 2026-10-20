@@ -1,87 +1,115 @@
-🔐 AccessGuard Cybersecurity Event Monitoring System
-Python | Cybersecurity | Security Event Analysis | Threat Detection
+# 🔐 AccessGuard — Cybersecurity Event Monitoring System
 
-Project Overview
-AccessGuard is a Python-based cybersecurity learning project designed to simulate Windows security events, analyze login activity, and identify potentially suspicious behavior.
+**Python | Cybersecurity | Windows Security Events | Threat Detection**
 
-The goal is to develop practical skills in cybersecurity monitoring, Python programming, security event analysis, and incident investigation.
+## 📌 Project Overview
 
-This project is being developed incrementally, with new functionality added and documented throughout the development process.
+AccessGuard is a Python-based cybersecurity portfolio project that simulates Windows authentication events, analyzes login activity, and identifies potentially suspicious behavior.
 
-Project Status: In Development — Lessons 1–3 Completed
+The project demonstrates foundational skills in Python programming, security event analysis, detection logic, and technical troubleshooting.
 
-Current Features
-Simulates failed login attempts using Python variables.
-Generates a basic security alert when failed login attempts meet a configurable threshold.
-Simulates Windows Security Event IDs 4624 and 4625.
-Counts successful and failed login events automatically from a Python list.
-Displays security analysis results in the terminal.
-Demonstrates Python conditional statements, variables, lists, and event counting.
-Windows Security Events
-Event ID
+**Status:** In Development — Lessons 1–3 Completed
 
-Description
+## 🛡️ Current Features
 
-4624
+- Simulates failed login attempts using Python variables.
+- Uses conditional statements to trigger basic security alerts.
+- Analyzes simulated Windows Event IDs 4624 and 4625.
+- Automatically counts successful and failed events from a Python list.
+- Displays security analysis results in the terminal.
+- Demonstrates basic Python debugging and testing.
 
-Successful Windows logon
+## 🔍 Windows Security Event IDs
 
-4625
+| Event ID | Description |
+| --- | --- |
+| 4624 | Successful Windows logon |
+| 4625 | Failed Windows logon |
 
-Failed Windows logon
+AccessGuard currently uses simulated events. It does not collect live Windows Event Logs.
 
-These events are commonly examined during authentication-related security investigations.
+## 🛠️ Technologies Used
 
-AccessGuard currently uses simulated event IDs rather than collecting live Windows Event Logs.
+- **Python 3** — Programming and security analysis
+- **Visual Studio Code** — Code development
+- **Windows PowerShell** — Program execution and testing
+- **Git** — Version control
+- **GitHub** — Source code hosting and documentation
 
-Technologies Used
-Python 3 — Core programming language
-Visual Studio Code — Development environment
-Git — Version control
-GitHub — Project hosting and documentation
-Windows PowerShell — Running and testing Python scripts
-How to Run AccessGuard
-Install Python 3.
-Download or clone this repository.
-Open the project folder in Visual Studio Code.
-Open a terminal in the project directory.
-Run python main.py.
-On some Windows systems, use py main.py instead.
+## 🚀 Installation and Usage
 
-The program displays simulated login results and security analysis information in the terminal.
+1. Install Python 3.
+2. Download this repository or clone it with Git.
+3. Open the project folder in Visual Studio Code.
+4. Open a terminal in the project directory.
+5. Run the following command:
 
-Development Progress
-☑ Lesson 1: Python setup and program execution
-☑ Lesson 2: Basic failed-login detection
-☑ Lesson 3: Windows security event analysis
-☐ Lesson 4: Automated security alerts based on event counts
-☐ Lesson 5: Username and IP address investigation
-☐ Add security log file analysis
-☐ Integrate SQL for security event storage
-☐ Develop a security monitoring dashboard
-☐ Add automated tests and investigation reports
-Skills Demonstrated
-This project develops practical experience in:
+python main.py
 
-Python programming and debugging
-Cybersecurity fundamentals
-Windows authentication event identification
-Security monitoring concepts
-Basic detection-rule development
-Technical troubleshooting
-Git and GitHub version control
-Future Development
-Future versions of AccessGuard will aim to analyze structured login records, associate suspicious activity with accounts and source IP addresses, identify patterns across timestamps, and provide investigation-friendly reports.
+If Windows does not recognize the python command, try:
 
-The long-term goal is to develop a portfolio-ready security monitoring application.
+py main.py
 
-Disclaimer
-AccessGuard is an educational cybersecurity project. All current login events are simulated. The application is not currently connected to live security systems and should not be relied upon for production threat detection.
+### Example Output
 
-Developer
-Etta J
+Welcome to AccessGuard!
+Security Monitoring System
+--------------------------
+Failed login attempts: 3
+Login activity is normal.
+Windows Security Event Analysis
+Failed logins: 5
+Successful logins: 1
+
+The first detection example uses a manually entered count. The second analyzes a simulated list of Windows Event IDs. Automated alerting based on the event list is planned for Lesson 4.
+
+## 📈 Development Progress
+
+- [x] Lesson 1 — Python setup and program execution
+- [x] Lesson 2 — Basic failed-login detection
+- [x] Lesson 3 — Windows security event analysis
+- [ ] Lesson 4 — Automated alerts from security event counts
+- [ ] Lesson 5 — Username and IP address investigation
+- [ ] Analyze structured security log files
+- [ ] Integrate SQL for security event storage
+- [ ] Develop a security monitoring dashboard
+- [ ] Add automated tests and investigation reports
+
+## 💡 Skills Demonstrated
+
+- Python programming fundamentals
+- Conditional logic and event counting
+- Windows authentication event identification
+- Security monitoring fundamentals
+- Basic security alert development
+- Debugging and technical troubleshooting
+- Git and GitHub version control
+
+## 🎯 Future Development
+
+Future versions of AccessGuard will aim to:
+
+- Associate login events with usernames and source IP addresses.
+- Analyze event timestamps and suspicious login sequences.
+- Store and investigate events using SQL.
+- Generate investigation-friendly alerts and reports.
+- Provide an interactive security monitoring dashboard.
+
+**Long-term goal:** Build a portfolio-ready security monitoring application suitable for demonstrating entry-level cybersecurity and application support skills.
+
+## ⚠️ Disclaimer
+
+AccessGuard is an educational project. All current security events are simulated. The application is not connected to live systems and should not be used for production threat detection. The five-failure threshold is an example training rule, not proof of an attack.
+
+## 👩🏽‍💻 Developer
+
+**Etta J**
 
 Computer Science Graduate | Aspiring Cybersecurity Professional
+
+**GitHub:** https://github.com/EttaJCodes
+
+*Building practical cybersecurity skills, one project and one commit at a time.*
 
 GitHub: https://github.com/EttaJCodes
 
